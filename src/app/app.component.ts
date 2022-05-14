@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'productFilter';
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
