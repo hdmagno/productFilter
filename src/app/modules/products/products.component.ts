@@ -59,8 +59,4 @@ export class ProductsComponent implements OnInit {
     this.loadProducts({ ...this.initialFilter, page, pageSize });
   }
 
-  rowsPerPage(perPage: number) {
-
-  }
-
 }

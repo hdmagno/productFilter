@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'productFilter';
+  msgs: any;
+
+  show() {
+    this.msgs.push({severity:'info', summary:'Info Message', detail:'PrimeNG rocks'});
+}
+
+clear() {
+    this.msgs = [];
+}
 }

@@ -15,6 +15,7 @@ import {PaginatorModule} from 'primeng/paginator';
 
 //custom
 import { ProductsComponent } from './modules/products/products.component';
+
 @NgModule({
   declarations: [
     AppComponent,
