@@ -6,8 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
-<<<<<<< Updated upstream
-=======
 //primeng
 import {MessagesModule} from 'primeng/messages';
 import {MessageModule} from 'primeng/message';
@@ -17,7 +15,6 @@ import {PaginatorModule} from 'primeng/paginator';
 
 //custom
 import { ProductsComponent } from './modules/products/products.component';
->>>>>>> Stashed changes
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,9 +22,6 @@ import { ProductsComponent } from './modules/products/products.component';
   ],
   imports: [
     BrowserModule,
-<<<<<<< Updated upstream
-    AppRoutingModule
-=======
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
@@ -36,7 +30,6 @@ import { ProductsComponent } from './modules/products/products.component';
     ButtonModule,
     CardModule,
     PaginatorModule
->>>>>>> Stashed changes
   ],
   providers: [],
   bootstrap: [AppComponent]
