@@ -1,7 +1,11 @@
-section {
+.cards {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  flex: 1, 1;
+  margin-bottom: 2rem;
 }
