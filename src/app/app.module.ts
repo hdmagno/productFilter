@@ -1,3 +1,4 @@
+import { ProductsModule } from './modules/products/products.module';
 //angular
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -7,30 +8,21 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
 //primeng
-import {MessagesModule} from 'primeng/messages';
-import {MessageModule} from 'primeng/message';
-import {ButtonModule} from 'primeng/button';
-import {CardModule} from 'primeng/card';
-import {PaginatorModule} from 'primeng/paginator';
+
 
 //custom
 import { ProductsComponent } from './modules/products/products.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ProductsComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MessagesModule,
-    MessageModule,
-    ButtonModule,
-    CardModule,
-    PaginatorModule
+    ProductsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
