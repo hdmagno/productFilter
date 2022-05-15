@@ -1,0 +1,17 @@
+<section>
+  <p-paginator [rows]="metadata.pageSize" [totalRecords]="metadata.totalCount" [rowsPerPageOptions]="[5,10,20]"
+    (onPageChange)="paginate($event)"></p-paginator>
+    <div class="cards">
+      <div class="card" *ngFor="let product of products">
+        <p-card header={{product.title}} [style]="{width: '220px'}" styleClass="p-card-shadow">
+          <ng-template pTemplate="header">
+            <img alt="Card" src={{product.image}}>
+          </ng-template>
+          <p>{{product.description}}</p>
+          <ng-template pTemplate="footer">
+
+        </ng-template>
+        </p-card>
+      </div>
+    </div>
+  </section>
